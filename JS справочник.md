@@ -1290,6 +1290,18 @@ will return ${previousValue + currentValue}`)
 
 ```
 
+### Пример заполнения массива числами
+
+```javascript
+const numbers = new Array(31).fill(0)
+// вернет массив длинной 31 и заполненный 0
+
+const numbers = new Array(31).fill(0).map((_, i) => i + 1);
+// вернет массив от 1 до 31
+
+```
+
+
 
 ## Дата. Объект Date
 

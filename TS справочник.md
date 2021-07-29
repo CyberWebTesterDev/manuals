@@ -1374,7 +1374,15 @@ type MyRecord<K extends keyof any, T> = { [P in K]: T };
 
 ```
 
+Пример описания объекта
 
+```typescript
+
+type TObj = Record<string, string | null>;
+
+const obj: TObj = { id: '123', corrEst: null, }
+
+```
 
 ### Pick<T, K>
 
